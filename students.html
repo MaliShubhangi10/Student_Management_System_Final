@@ -1,0 +1,7 @@
+<h2>Student List</h2>
+<table border="1">
+<tr><th>Name</th><th>Roll</th><th>Email</th></tr>
+{% for s in students %}
+<tr><td>{{s.name}}</td><td>{{s.roll}}</td><td>{{s.email}}</td></tr>
+{% endfor %}
+</table>
